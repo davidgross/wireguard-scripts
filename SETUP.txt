@@ -1,3 +1,5 @@
+# Install instructions for clients created by add-client.sh
+
 https://www.wireguard.com/install/
 
 # Ubuntu
