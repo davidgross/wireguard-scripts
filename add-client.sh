@@ -2,7 +2,7 @@
 
 if [ $# -eq 0 ]
 then
-	echo "must have args"
+	echo "must pass a client name as an arg: add-client.sh new-client"
 else
 	echo "Creating client config for: $1"
 	mkdir $1
