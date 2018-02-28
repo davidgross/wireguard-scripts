@@ -6,7 +6,7 @@ add and remove clients from a wireguard server.
 
 `bash remove-peer.sh <client_pub_key>` will remove the peer.
 
-Download the generated `<client_name>.tar.gz` file and extract it. Follow the instructions in `SETUP.txt` in the resultiing folder.
+Download the generated `<client_name>.tar.gz` file and extract it. Follow the instructions in `SETUP.txt` in the resulting folder.
 
 
 ### This set of scripts was heavily influcenced by:
