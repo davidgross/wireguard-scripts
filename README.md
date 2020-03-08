@@ -25,6 +25,8 @@ NOTE: this assumes some decent commandline knowlege.
 
 1. install wireguard on server (https://www.wireguard.com/install/)
 
+1. install qrencode for easier addition of peers (apt install qrencode)
+
 1. as `root`, `cd /etc/wireguard`, and create server keys: `wg genkey | tee server_private_key | wg pubkey > server_public_key`
 
 1. copy wg0-server.example.conf in this project to /etc/wireguard/wg0.conf
