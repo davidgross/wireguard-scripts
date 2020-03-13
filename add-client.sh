@@ -20,4 +20,5 @@ else
 	echo "Adding peer to hosts file"
 	echo $ip" "$1 | sudo tee -a /etc/hosts
 	sudo wg show
+	qrencode -t ansiutf8 < clients/$1/wg0.conf
 fi
